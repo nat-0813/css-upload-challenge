@@ -1,0 +1,39 @@
+body{
+    background-color: turquoise;
+    
+}
+table{
+height: 456px;
+width:800px;
+}
+
+table, td{
+border:solid 0px ;
+border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+background: #bf0b30;
+         }
+
+tr:nth-child(even) {
+background: #ffffff;
+}
+
+*{
+margin: 20px;
+} 
+
+.stars {
+    width:288px;
+    height:245px;
+    margin-bottom: -250px;
+}
+
+p {
+color: #fffeff;
+font-size: 33px;
+line-height: 7px;
+letter-spacing: 15px;
+text-align: center;
+ }
